@@ -12,14 +12,17 @@
   <Navbar color="light" light expand="md">
     <NavbarBrand href="https://github.com/KorieDrakeChaney">KorieDrakeChaney</NavbarBrand>
     <Nav tabs class="ms-auto" navbar>
+      <NavItem>
+        <NavLink href="/">Home</NavLink>
+      </NavItem>
         <NavItem>
-            <NavLink href="/Blogs">Blogs</NavLink>
+            <NavLink href="/blogs">Blogs</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/About">About</NavLink>
+            <NavLink href="/about">About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/Portfolio">Portfolio</NavLink>
+            <NavLink href="/portfolio">Portfolio</NavLink>
           </NavItem>
     </Nav>
   </Navbar>
