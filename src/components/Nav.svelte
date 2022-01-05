@@ -19,6 +19,9 @@
             <NavLink href="/blogs">Blogs</NavLink>
           </NavItem>
           <NavItem>
+            <NavLink href="/books">Books</NavLink>
+          </NavItem>
+          <NavItem>
             <NavLink href="/about">About</NavLink>
           </NavItem>
           <NavItem>

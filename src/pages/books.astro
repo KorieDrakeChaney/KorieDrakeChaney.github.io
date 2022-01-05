@@ -1,16 +1,15 @@
 ---
     import MainHead from '../components/MainHead.astro';
     import Nav from '../components/Nav.svelte';
-    import Code from '../components/Code.svelte';
+    import WorkInProgress from '../layouts/WorkInProgress.svelte';
 ---
 
 <html>
     <head>
-        <MainHead title = "Home"  />
+        <MainHead title = "Books" />
     </head>
     <body>
         <Nav />
-        <Code client:load><b>Dam</b> Hello</Code>
+        <WorkInProgress name="Books" color="orange"/>
     </body>
-
 </html>

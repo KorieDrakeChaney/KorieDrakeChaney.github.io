@@ -22,5 +22,28 @@
     padding-top: 50vh;
     font-size: 100px;
   }
-  
+
+  @media (max-width: 790px) {
+		div {
+			font-size: 65px;
+		}
+	}
+
+  @media (max-width: 690px) {
+		div {
+			font-size: 50px;
+		}
+	}
+
+  @media (max-width: 530px) {
+		div {
+			font-size: 35px;
+		}
+	}
+
+  @media (max-width: 370px) {
+		div {
+			font-size: 25px;
+		}
+	}
 </style>
